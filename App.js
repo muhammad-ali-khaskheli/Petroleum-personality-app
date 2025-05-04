@@ -120,7 +120,7 @@ export default function App() {
         <Text style={styles.fieldText}>{result}</Text>
         <Text style={styles.descriptionText}>{fieldDescriptions[result]}</Text>
         <Text style={styles.madeByText}>Made by Muhammad Ali</Text>
-        <Text style={styles.groupMembersText}>Group members: 23PG(27,19,11,42,45,24,03)</Text>
+        <Text style={styles.groupMembersText}>Group members: 23PG(27,19,11,42,45,24)</Text>
         <TouchableOpacity style={styles.retakeButton} onPress={retakeTest}>
           <Text style={styles.retakeButtonText}>Retake Test</Text>
         </TouchableOpacity>
